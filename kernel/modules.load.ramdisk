@@ -155,6 +155,5 @@ mtk-mbox-mailbox.ko
 irq-dbg.ko
 mtk-socinfo.ko
 upm6722.ko
-hodafone_battery.ko
 wl2868c-regulator.ko
 st21nfc.ko

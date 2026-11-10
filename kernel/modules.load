@@ -1,4 +1,5 @@
-mtk_touchscreen_hodafonehw.ko
+synaptics_dsx_core.ko
+synaptics_dsx_i2c.ko
 leds-gpio.ko
 zsmalloc.ko
 zram.ko
