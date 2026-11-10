@@ -12,12 +12,14 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/Q25_keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Q25_keyboard.idc \
-    $(LOCAL_PATH)/configs/keylayout/Q25_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Q25_keyboard.kl \
-    $(LOCAL_PATH)/configs/keychars/Q25_keyboard.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Q25_keyboard.kcm
+    $(LOCAL_PATH)/configs/idc/touch_display.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_display.idc \
+    $(LOCAL_PATH)/configs/idc/bbqX0kbd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/bbqX0kbd.idc \
+    $(LOCAL_PATH)/configs/keylayout/bbqX0kbd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/bbqX0kbd.kl \
+    $(LOCAL_PATH)/configs/keychars/bbqX0kbd.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/bbqX0kbd.kcm
 
 # Overlays
 PRODUCT_PACKAGES += \
+    LineageSDKResDevice \
     SystemUIOverlayTarget
 
 # Soong namespaces
